@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
     <head> 
-        <title>POIs Template</title> 
+        <title>Ecoplan Gent</title> 
         <!--------------- Metatags ------------------->   
         <meta charset="utf-8" />
         <!-- Not allowing the user to zoom -->    
@@ -45,7 +45,7 @@
          <!-- Home Page: Contains the Map -->
         <div data-role="page" id="page1" class="page">
             <header data-role="header" data-posistion="fixed" data-id="constantNav" data-fullscreen="true">
-                <span class="ui-title">Points of Interest - POIs</span>
+                <span class="ui-title">Ecoplan Gent</span>
                 <a href="" id="filter" data-icon="gear" data-iconpos="notext" data-theme="a" title="Settings" class="ui-btn-left">&nbsp;</a>
                 <a href="#info" data-rel="dialog" data-icon="info" data-iconpos="notext" data-theme="b" title="Info" class="ui-btn-right">&nbsp;</a>
                 <div data-role="navbar" class="navbar">
@@ -78,17 +78,17 @@
         <div data-role="page" id="page2" class="page">
 
             <header data-role="header" data-posistion="fixed" data-id="constantNav">
-                <span class="ui-title"> Points of Interest - POIs </span>
+                <span class="ui-title">Ecoplan Gent</span>
                 <fieldset data-role="controlgroup" class="favourites-button">
                     <input type="checkbox" name="favourites" id="favourites" class="custom" />
-                    <label for="favourites">Favourites</label>
+                    <label for="favourites">Favorieten</label>
                 </fieldset>
                 <a href="" data-icon="back" data-iconpos="notext" data-theme="a" title="Back" data-rel="back" class="ui-btn-right">&nbsp;</a>
                 <div data-role="navbar" class="navbar">
                     <ul>
-                        <li><a href="#" class="pois-nearme" data-theme="a">Near me</a></li>
-                        <li><a href="#" class="pois-showall" data-theme="a">Show all</a></li>
-                        <li><a href="#page2" class="pois-list ui-btn-active" data-theme="a">List</a></li>
+                        <li><a href="#" class="pois-nearme" data-theme="a">In de buurt</a></li>
+                        <li><a href="#" class="pois-showall" data-theme="a">Alles tonen</a></li>
+                        <li><a href="#page2" class="pois-list ui-btn-active" data-theme="a">Lijst</a></li>
                     </ul>
                 </div><!-- /navbar -->
             </header>
@@ -107,13 +107,13 @@
         <!-- Details Page: Contains the details of a selected element -->
         <div data-role="page" id="page3" data-title="Event fullstory page title" class="page">
             <header data-role="header" data-posistion="fixed" data-fullscreen="true">
-                <span class="ui-title"> Points of Interest - Events </span>
+                <span class="ui-title">Ecoplan Gent</span>
                 <a href="" data-icon="back" data-iconpos="notext" data-theme="a" title="Back" data-rel="back" class="ui-btn-right">&nbsp;</a>
                 <div data-role="navbar" class="navbar">
                     <ul>
-                        <li><a href="#" class="pois-nearme" data-theme="a">Near me</a></li>
-                        <li><a href="#" class="pois-showall" data-theme="a">Show all</a></li>
-                        <li><a href="#page2" class="pois-list" data-theme="a">List</a></li>
+                        <li><a href="#" class="pois-nearme" data-theme="a">In de buurt</a></li>
+                        <li><a href="#" class="pois-showall" data-theme="a">Alles tonen</a></li>
+                        <li><a href="#page2" class="pois-list" data-theme="a">Lijst</a></li>
                     </ul>
                 </div><!-- /navbar --> 
             </header>
@@ -127,8 +127,8 @@
             </div><!--list-container-->
                 
             <footer data-role="footer" data-posistion="fixed" data-fullscreen="true">
-                <a href="" id="addFav" data-icon="star" data-theme="a" title="Add to favourites" data-rel="star" class="ui-btn-center">Add to favourites</a>
-                <a href="" id="removeFav" data-icon="star" data-theme="a" title="Remove from favourites" data-rel="star" class="ui-btn-center">Remove from favourites</a>
+                <a href="" id="addFav" data-icon="star" data-theme="a" title="Add to favourites" data-rel="star" class="ui-btn-center">Toevoegen aan favorieten</a>
+                <a href="" id="removeFav" data-icon="star" data-theme="a" title="Remove from favourites" data-rel="star" class="ui-btn-center">Verwijderen uit favorieten</a>
             </footer>
                 
         </div><!-- /page -->
