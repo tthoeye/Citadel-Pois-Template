@@ -1,0 +1,247 @@
+{ features: [
+{
+type: "point",
+lat: 51.0477577,
+lon: 3.7273401,
+popup: "<div class="ds-1col node node-location view-mode-on_the_map clearfix"> <div class="field field-name-title"><h2><a href="/nl/blikvangers/vooruit-turkse-cinema">Vooruit – Turkse cinema</a></h2></div><div class="field field-name-body">In 1976 begonnen de Turkse gebroeders Alcı, die ook het eerste Turkse restaurant in Gent...</div><div class="field field-name-node-link"><a href="/nl/blikvangers/vooruit-turkse-cinema">Lees meer</a></div></div> ",
+label: "<a href="/nl/blikvangers/vooruit-turkse-cinema">Vooruit – Turkse cinema</a>"
+},
+{
+type: "point",
+lat: 51.0570384,
+lon: 3.7213962,
+popup: "<div class="ds-1col node node-location view-mode-on_the_map clearfix"> <div class="field field-name-title"><h2><a href="/nl/blikvangers/veneziana-ijs-en-jazz">Veneziana – IJs en jazz</a></h2></div><div class="field field-name-body">De Italiaanse broers Virgilio en Bortolo Zangrando kwamen in 1923 naar Gent. Ze vestigden...</div><div class="field field-name-node-link"><a href="/nl/blikvangers/veneziana-ijs-en-jazz">Lees meer</a></div></div> ",
+label: "<a href="/nl/blikvangers/veneziana-ijs-en-jazz">Veneziana – IJs en jazz</a>"
+},
+{
+type: "point",
+lat: 51.0724261,
+lon: 3.7125903,
+popup: "<div class="ds-1col node node-location view-mode-on_the_map clearfix"> <div class="field field-name-title"><h2><a href="/nl/blikvangers/uco-braun-laatste-bastion-van-de-gentse-textiel">UCO Braun – Laatste bastion van de Gentse textiel</a></h2></div><div class="field field-name-body">UCO Braun was de jongste van de Gentse UCO-fabrieken. Pas in 1950 opende ze de deuren. De...</div><div class="field field-name-node-link"><a href="/nl/blikvangers/uco-braun-laatste-bastion-van-de-gentse-textiel">Lees meer</a></div></div> ",
+label: "<a href="/nl/blikvangers/uco-braun-laatste-bastion-van-de-gentse-textiel">UCO Braun – Laatste bastion van de Gentse textiel</a>"
+},
+{
+type: "point",
+lat: 51.0628438,
+lon: 3.6978693,
+popup: "<div class="ds-1col node node-location view-mode-on_the_map clearfix"> <div class="field field-name-title"><h2><a href="/nl/blikvangers/taieb-de-marokkaanse-buurtslager">Taieb – De Marokkaanse buurtslager</a></h2></div><div class="field field-name-body">Waar nu de tajines in het uitstalraam staan, was tot voor kort slagerij Taieb gevestigd...</div><div class="field field-name-node-link"><a href="/nl/blikvangers/taieb-de-marokkaanse-buurtslager">Lees meer</a></div></div> ",
+label: "<a href="/nl/blikvangers/taieb-de-marokkaanse-buurtslager">Taieb – De Marokkaanse buurtslager</a>"
+},
+{
+type: "point",
+lat: 51.0564942,
+lon: 3.7283607,
+popup: "<div class="ds-1col node node-location view-mode-on_the_map clearfix"> <div class="field field-name-title"><h2><a href="/nl/blikvangers/st-john-anglicaanse-trouwkapel">St John – Anglicaanse trouwkapel</a></h2></div><div class="field field-name-body">Deze kapel werd in 1888 gewijd als Anglicaanse kerk voor de Britse migranten in Gent...</div><div class="field field-name-node-link"><a href="/nl/blikvangers/st-john-anglicaanse-trouwkapel">Lees meer</a></div></div> ",
+label: "<a href="/nl/blikvangers/st-john-anglicaanse-trouwkapel">St John – Anglicaanse trouwkapel</a>"
+},
+{
+type: "point",
+lat: 51.0361744,
+lon: 3.7108469,
+popup: "<div class="ds-1col node node-location view-mode-on_the_map clearfix"> <div class="field field-name-title"><h2><a href="/nl/blikvangers/station-gent-sint-pieters-plaats-van-aankomst-en-vertrek">Station Gent-Sint-Pieters – Plaats van aankomst en vertrek</a></h2></div><div class="field field-name-body">Al van bij zijn ontstaan was het station Gent-Sint-Pieters een belangrijk ijkpunt voor...</div><div class="field field-name-node-link"><a href="/nl/blikvangers/station-gent-sint-pieters-plaats-van-aankomst-en-vertrek">Lees meer</a></div></div> ",
+label: "<a href="/nl/blikvangers/station-gent-sint-pieters-plaats-van-aankomst-en-vertrek">Station Gent-Sint-Pieters – Plaats van aankomst en vertrek</a>"
+},
+{
+type: "point",
+lat: 51.0433293,
+lon: 3.7182392,
+popup: "<div class="ds-1col node node-location view-mode-on_the_map clearfix"> <div class="field field-name-title"><h2><a href="/nl/blikvangers/stam-moederhuis-op-de-bijloke">STAM – Moederhuis op de Bijloke</a></h2></div><div class="field field-name-body">Vanaf de jaren 60 kwamen heel wat Turkse en Noord-Afrikaanse vrouwen uit Gent in dit ‘...</div><div class="field field-name-node-link"><a href="/nl/blikvangers/stam-moederhuis-op-de-bijloke">Lees meer</a></div></div> ",
+label: "<a href="/nl/blikvangers/stam-moederhuis-op-de-bijloke">STAM – Moederhuis op de Bijloke</a>"
+},
+{
+type: "point",
+lat: 51.0543133,
+lon: 3.7382505,
+popup: "<div class="ds-1col node node-location view-mode-on_the_map clearfix"> <div class="field field-name-title"><h2><a href="/nl/blikvangers/spaanskasteelplein-met-de-bus-naar-emirdag">Spaanskasteelplein – Met de bus naar Emirdağ</a></h2></div><div class="field field-name-body">Tussen 1985 en 1995 vertrokken hier de rechtstreekse buslijnen tussen Gent en het Turkse...</div><div class="field field-name-node-link"><a href="/nl/blikvangers/spaanskasteelplein-met-de-bus-naar-emirdag">Lees meer</a></div></div> ",
+label: "<a href="/nl/blikvangers/spaanskasteelplein-met-de-bus-naar-emirdag">Spaanskasteelplein – Met de bus naar Emirdağ</a>"
+},
+{
+type: "point",
+lat: 51.0586472,
+lon: 3.7019191,
+popup: "<div class="ds-1col node node-location view-mode-on_the_map clearfix"> <div class="field field-name-title"><h2><a href="/nl/blikvangers/sint-jan-baptist-van-rommelmarkt-tot-kringloopwinkel">Sint-Jan-Baptist – Van rommelmarkt tot kringloopwinkel</a></h2></div><div class="field field-name-body">Vijftig jaar geleden startte op de Sint-Jan-Baptistparochie een kleinschalig project dat...</div><div class="field field-name-node-link"><a href="/nl/blikvangers/sint-jan-baptist-van-rommelmarkt-tot-kringloopwinkel">Lees meer</a></div></div> ",
+label: "<a href="/nl/blikvangers/sint-jan-baptist-van-rommelmarkt-tot-kringloopwinkel">Sint-Jan-Baptist – Van rommelmarkt tot kringloopwinkel</a>"
+},
+{
+type: "point",
+lat: 51.0480783,
+lon: 3.7418589,
+popup: "<div class="ds-1col node node-location view-mode-on_the_map clearfix"> <div class="field field-name-title"><h2><a href="/nl/blikvangers/regenboogkerk-kerkasiel-en-kleurrijke-misvieringen">Regenboogkerk – Kerkasiel en kleurrijke misvieringen</a></h2></div><div class="field field-name-body">In 1992 werd Marcel De Meyer aangesteld als pastoor in de Sint-Antoniusparochie. Al snel...</div><div class="field field-name-node-link"><a href="/nl/blikvangers/regenboogkerk-kerkasiel-en-kleurrijke-misvieringen">Lees meer</a></div></div> ",
+label: "<a href="/nl/blikvangers/regenboogkerk-kerkasiel-en-kleurrijke-misvieringen">Regenboogkerk – Kerkasiel en kleurrijke misvieringen</a>"
+},
+{
+type: "point",
+lat: 51.0581592,
+lon: 3.7240348,
+popup: "<div class="ds-1col node node-location view-mode-on_the_map clearfix"> <div class="field field-name-title"><h2><a href="/nl/blikvangers/qahwa-maria-muntthee-en-kaarten-in-oudburg">Qahwa Maria – Muntthee en kaarten in Oudburg</a></h2></div><div class="field field-name-body">De Bretoense Maria Loc’h kwam in 1972 samen met haar Algerijnse echtgenoot vanuit...</div><div class="field field-name-node-link"><a href="/nl/blikvangers/qahwa-maria-muntthee-en-kaarten-in-oudburg">Lees meer</a></div></div> ",
+label: "<a href="/nl/blikvangers/qahwa-maria-muntthee-en-kaarten-in-oudburg">Qahwa Maria – Muntthee en kaarten in Oudburg</a>"
+},
+{
+type: "point",
+lat: 51.0582638,
+lon: 3.7121399,
+popup: "<div class="ds-1col node node-location view-mode-on_the_map clearfix"> <div class="field field-name-title"><h2><a href="/nl/blikvangers/orthodoxe-kerk-van-de-russische-revolutie-tot-de-val-van-de-muur">Orthodoxe kerk – Van de Russische Revolutie tot de val van de Muur</a></h2></div><div class="field field-name-body">In 1972 werd hier de orthodoxe parochie van Gent opgericht en een jaar later erkend door...</div><div class="field field-name-node-link"><a href="/nl/blikvangers/orthodoxe-kerk-van-de-russische-revolutie-tot-de-val-van-de-muur">Lees meer</a></div></div> ",
+label: "<a href="/nl/blikvangers/orthodoxe-kerk-van-de-russische-revolutie-tot-de-val-van-de-muur">Orthodoxe kerk – Van de Russische Revolutie tot de val van de Muur</a>"
+},
+{
+type: "point",
+lat: 51.0548276,
+lon: 3.7226016,
+popup: "<div class="ds-1col node node-location view-mode-on_the_map clearfix"> <div class="field field-name-title"><h2><a href="/nl/blikvangers/mokabon-italiaanse-koffie-in-de-rue-du-paradis">Mokabon – Italiaanse koffie in de Rue du Paradis</a></h2></div><div class="field field-name-body">In de vroege jaren 30 emigreerde Erminio Mazzaro, een jonge Italiaan uit de buurt van...</div><div class="field field-name-node-link"><a href="/nl/blikvangers/mokabon-italiaanse-koffie-in-de-rue-du-paradis">Lees meer</a></div></div> ",
+label: "<a href="/nl/blikvangers/mokabon-italiaanse-koffie-in-de-rue-du-paradis">Mokabon – Italiaanse koffie in de Rue du Paradis</a>"
+},
+{
+type: "point",
+lat: 51.059551,
+lon: 3.7291825,
+popup: "<div class="ds-1col node node-location view-mode-on_the_map clearfix"> <div class="field field-name-title"><h2><a href="/nl/blikvangers/miat-vijftig-jaar-arbeidsmigratie">MIAT – Vijftig jaar arbeidsmigratie</a></h2></div><div class="field field-name-body">Het Museum voor Industrie, Arbeid en Textiel is gehuisvest in de gebouwen van...</div><div class="field field-name-node-link"><a href="/nl/blikvangers/miat-vijftig-jaar-arbeidsmigratie">Lees meer</a></div></div> ",
+label: "<a href="/nl/blikvangers/miat-vijftig-jaar-arbeidsmigratie">MIAT – Vijftig jaar arbeidsmigratie</a>"
+},
+{
+type: "point",
+lat: 51.0536762,
+lon: 3.723222,
+popup: "<div class="ds-1col node node-location view-mode-on_the_map clearfix"> <div class="field field-name-title"><h2><a href="/nl/blikvangers/metselaarshuis-logeren-in-verkrotte-kamers">Metselaarshuis – Logeren in verkrotte kamers</a></h2></div><div class="field field-name-body">Het 16de-eeuwse Gildehuis van de Metselaars, waarvan een exacte kopie op de Graslei staat...</div><div class="field field-name-node-link"><a href="/nl/blikvangers/metselaarshuis-logeren-in-verkrotte-kamers">Lees meer</a></div></div> ",
+label: "<a href="/nl/blikvangers/metselaarshuis-logeren-in-verkrotte-kamers">Metselaarshuis – Logeren in verkrotte kamers</a>"
+},
+{
+type: "point",
+lat: 51.0660819,
+lon: 3.7217272,
+popup: "<div class="ds-1col node node-location view-mode-on_the_map clearfix"> <div class="field field-name-title"><h2><a href="/nl/blikvangers/integratiedienst-het-bureau-van-maurice">Integratiedienst – Het bureau van Maurice</a></h2></div><div class="field field-name-body">In Gent, net als elders in Vlaanderen, duurde het lang voor de stedelijke overheid een...</div><div class="field field-name-node-link"><a href="/nl/blikvangers/integratiedienst-het-bureau-van-maurice">Lees meer</a></div></div> ",
+label: "<a href="/nl/blikvangers/integratiedienst-het-bureau-van-maurice">Integratiedienst – Het bureau van Maurice</a>"
+},
+{
+type: "point",
+lat: 51.0591977,
+lon: 3.7222884,
+popup: "<div class="ds-1col node node-location view-mode-on_the_map clearfix"> <div class="field field-name-title"><h2><a href="/nl/blikvangers/huis-van-de-arbeid-van-gast-tot-vreemdeling">Huis van de Arbeid – Van gast tot vreemdeling</a></h2></div><div class="field field-name-body">In de 19de en het begin van de 20ste eeuw hoefden buitenlanders die in België kwamen...</div><div class="field field-name-node-link"><a href="/nl/blikvangers/huis-van-de-arbeid-van-gast-tot-vreemdeling">Lees meer</a></div></div> ",
+label: "<a href="/nl/blikvangers/huis-van-de-arbeid-van-gast-tot-vreemdeling">Huis van de Arbeid – Van gast tot vreemdeling</a>"
+},
+{
+type: "point",
+lat: 51.0546298,
+lon: 3.7141802,
+popup: "<div class="ds-1col node node-location view-mode-on_the_map clearfix"> <div class="field field-name-title"><h2><a href="/nl/blikvangers/hogar-espanol-grenzeloze-ontmoetingen-in-het-spaans-huis">Hogar Español – Grenzeloze ontmoetingen in het Spaans Huis</a></h2></div><div class="field field-name-body">In de jaren 60 kwamen de meeste Spaanse migranten naar Gent om als dienstbode te werken...</div><div class="field field-name-node-link"><a href="/nl/blikvangers/hogar-espanol-grenzeloze-ontmoetingen-in-het-spaans-huis">Lees meer</a></div></div> ",
+label: "<a href="/nl/blikvangers/hogar-espanol-grenzeloze-ontmoetingen-in-het-spaans-huis">Hogar Español – Grenzeloze ontmoetingen in het Spaans Huis</a>"
+},
+{
+type: "point",
+lat: 51.0579201,
+lon: 3.7423118,
+popup: "<div class="ds-1col node node-location view-mode-on_the_map clearfix"> <div class="field field-name-title"><h2><a href="/nl/blikvangers/gilbert-de-turkse-kapper">Gilbert – De Turkse kapper</a></h2></div><div class="field field-name-body">Hier woonde en werkte Gilbert Lamont, buurman met een hart, integratiewerker avant la...</div><div class="field field-name-node-link"><a href="/nl/blikvangers/gilbert-de-turkse-kapper">Lees meer</a></div></div> ",
+label: "<a href="/nl/blikvangers/gilbert-de-turkse-kapper">Gilbert – De Turkse kapper</a>"
+},
+{
+type: "point",
+lat: 51.0627112,
+lon: 3.7036405,
+popup: "<div class="ds-1col node node-location view-mode-on_the_map clearfix"> <div class="field field-name-title"><h2><a href="/nl/blikvangers/el-ele-vrouwen-maken-de-brug">El Ele – Vrouwen maken de brug</a></h2></div><div class="field field-name-body">De eerste werking voor migrantenvrouwen in Gent ontstond aan het einde van de jaren 70 in...</div><div class="field field-name-node-link"><a href="/nl/blikvangers/el-ele-vrouwen-maken-de-brug">Lees meer</a></div></div> ",
+label: "<a href="/nl/blikvangers/el-ele-vrouwen-maken-de-brug">El Ele – Vrouwen maken de brug</a>"
+},
+{
+type: "point",
+lat: 51.0590032,
+lon: 3.7155364,
+popup: "<div class="ds-1col node node-location view-mode-on_the_map clearfix"> <div class="field field-name-title"><h2><a href="/nl/blikvangers/eerste-moskee-moslims-in-het-missiekot">Eerste moskee – Moslims in het missiekot</a></h2></div><div class="field field-name-body">In de jaren 70 doken in verschillende Belgische steden de eerste moskeeën op. In Gent...</div><div class="field field-name-node-link"><a href="/nl/blikvangers/eerste-moskee-moslims-in-het-missiekot">Lees meer</a></div></div> ",
+label: "<a href="/nl/blikvangers/eerste-moskee-moslims-in-het-missiekot">Eerste moskee – Moslims in het missiekot</a>"
+},
+{
+type: "point",
+lat: 51.0699152,
+lon: 3.7390622,
+popup: "<div class="ds-1col node node-location view-mode-on_the_map clearfix"> <div class="field field-name-title"><h2><a href="/nl/blikvangers/de-vikings-van-barakken-tot-torenhoge-blokken">De Vikings – Van barakken tot torenhoge blokken</a></h2></div><div class="field field-name-body">De ‘Vikingblokken’ danken hun bijnaam aan de houten hutten die er van de jaren 20 tot de...</div><div class="field field-name-node-link"><a href="/nl/blikvangers/de-vikings-van-barakken-tot-torenhoge-blokken">Lees meer</a></div></div> ",
+label: "<a href="/nl/blikvangers/de-vikings-van-barakken-tot-torenhoge-blokken">De Vikings – Van barakken tot torenhoge blokken</a>"
+},
+{
+type: "point",
+lat: 51.0678307,
+lon: 3.7290914,
+popup: "<div class="ds-1col node node-location view-mode-on_the_map clearfix"> <div class="field field-name-title"><h2><a href="/nl/blikvangers/de-sleep-hippiedokter-voor-een-betere-wereld">De Sleep – Hippiedokter voor een betere wereld</a></h2></div><div class="field field-name-body">De Sleep werd in 1976 opgericht als een van de eerste wijkgezondheidscentra van het land...</div><div class="field field-name-node-link"><a href="/nl/blikvangers/de-sleep-hippiedokter-voor-een-betere-wereld">Lees meer</a></div></div> ",
+label: "<a href="/nl/blikvangers/de-sleep-hippiedokter-voor-een-betere-wereld">De Sleep – Hippiedokter voor een betere wereld</a>"
+},
+{
+type: "point",
+lat: 51.061249,
+lon: 3.734386,
+popup: "<div class="ds-1col node node-location view-mode-on_the_map clearfix"> <div class="field field-name-title"><h2><a href="/nl/blikvangers/de-centrale-weg-van-modrica">De Centrale – Weg van Modriča</a></h2></div><div class="field field-name-body">In 1991 begon de Socialistische Federale Republiek Joegoslavië uiteen te vallen. De...</div><div class="field field-name-node-link"><a href="/nl/blikvangers/de-centrale-weg-van-modrica">Lees meer</a></div></div> ",
+label: "<a href="/nl/blikvangers/de-centrale-weg-van-modrica">De Centrale – Weg van Modriča</a>"
+},
+{
+type: "point",
+lat: 51.0607661,
+lon: 3.7105248,
+popup: "<div class="ds-1col node node-location view-mode-on_the_map clearfix"> <div class="field field-name-title"><h2><a href="/nl/blikvangers/cafe-kosa-doorsluishuis-voor-gelukzoekers">Café Kosa – Doorsluishuis voor gelukzoekers</a></h2></div><div class="field field-name-body">Café Kosa was een van de vele Turkse cafés die in de jaren 70 in Gent werden opgericht...</div><div class="field field-name-node-link"><a href="/nl/blikvangers/cafe-kosa-doorsluishuis-voor-gelukzoekers">Lees meer</a></div></div> ",
+label: "<a href="/nl/blikvangers/cafe-kosa-doorsluishuis-voor-gelukzoekers">Café Kosa – Doorsluishuis voor gelukzoekers</a>"
+},
+{
+type: "point",
+lat: 51.0547096,
+lon: 3.7217823,
+popup: "<div class="ds-1col node node-location view-mode-on_the_map clearfix"> <div class="field field-name-title"><h2><a href="/nl/blikvangers/cafe-damberd-vluchtelingen-aan-de-toog">Café Damberd – Vluchtelingen aan de toog</a></h2></div><div class="field field-name-body">Als een van de oudste cafés van Gent heeft Café Damberd heel wat nieuwkomers zien komen...</div><div class="field field-name-node-link"><a href="/nl/blikvangers/cafe-damberd-vluchtelingen-aan-de-toog">Lees meer</a></div></div> ",
+label: "<a href="/nl/blikvangers/cafe-damberd-vluchtelingen-aan-de-toog">Café Damberd – Vluchtelingen aan de toog</a>"
+},
+{
+type: "point",
+lat: 51.0598907,
+lon: 3.7249838,
+popup: "<div class="ds-1col node node-location view-mode-on_the_map clearfix"> <div class="field field-name-title"><h2><a href="/nl/blikvangers/bogazici-het-eerste-turkse-restaurant">Boğaziçi – Het eerste Turkse restaurant</a></h2></div><div class="field field-name-body">In 1974 opende hier het eerste Turkse restaurant van Gent. ‘Boğaziçi’ (De Bosporus)...</div><div class="field field-name-node-link"><a href="/nl/blikvangers/bogazici-het-eerste-turkse-restaurant">Lees meer</a></div></div> ",
+label: "<a href="/nl/blikvangers/bogazici-het-eerste-turkse-restaurant">Boğaziçi – Het eerste Turkse restaurant</a>"
+},
+{
+type: "point",
+lat: 51.0527795,
+lon: 3.7089586,
+popup: "<div class="ds-1col node node-location view-mode-on_the_map clearfix"> <div class="field field-name-title"><h2><a href="/nl/blikvangers/boerenkot-blijven-plakken-aan-de-coupure">Boerenkot – Blijven plakken aan de Coupure</a></h2></div><div class="field field-name-body">Sinds haar oprichting in 1817 is de Gentse universiteit een trekpleister geweest voor...</div><div class="field field-name-node-link"><a href="/nl/blikvangers/boerenkot-blijven-plakken-aan-de-coupure">Lees meer</a></div></div> ",
+label: "<a href="/nl/blikvangers/boerenkot-blijven-plakken-aan-de-coupure">Boerenkot – Blijven plakken aan de Coupure</a>"
+},
+{
+type: "point",
+lat: 51.0523475,
+lon: 3.7218797,
+popup: "<div class="ds-1col node node-location view-mode-on_the_map clearfix"> <div class="field field-name-title"><h2><a href="/nl/blikvangers/bloch-bakker-tegen-racisme">Bloch – Bakker tegen racisme</a></h2></div><div class="field field-name-body">Het bakken zit de familie Bloch in het bloed. In de Veldstraat arriveerde de eerste telg...</div><div class="field field-name-node-link"><a href="/nl/blikvangers/bloch-bakker-tegen-racisme">Lees meer</a></div></div> ",
+label: "<a href="/nl/blikvangers/bloch-bakker-tegen-racisme">Bloch – Bakker tegen racisme</a>"
+},
+{
+type: "point",
+lat: 51.0562813,
+lon: 3.7271842,
+popup: "<div class="ds-1col node node-location view-mode-on_the_map clearfix"> <div class="field field-name-title"><h2><a href="/nl/blikvangers/bij-sint-jacobs-dag-van-de-gastarbeider">Bij Sint-Jacobs – Dag van de Gastarbeider</a></h2></div><div class="field field-name-body">Tijdens de Gentse Feesten van 1971, twee jaar nadat Walter De Buck de jaarlijkse...</div><div class="field field-name-node-link"><a href="/nl/blikvangers/bij-sint-jacobs-dag-van-de-gastarbeider">Lees meer</a></div></div> ",
+label: "<a href="/nl/blikvangers/bij-sint-jacobs-dag-van-de-gastarbeider">Bij Sint-Jacobs – Dag van de Gastarbeider</a>"
+},
+{
+type: "point",
+lat: 51.05704,
+lon: 3.7320381,
+popup: "<div class="ds-1col node node-location view-mode-on_the_map clearfix"> <div class="field field-name-title"><h2><a href="/nl/blikvangers/berbat-courgettes-en-cassettes">Berbat – Courgettes en cassettes</a></h2></div><div class="field field-name-body">Berbat is de oudste nog bestaande Turkse handelszaak in Gent. De zaak opende al in 1975...</div><div class="field field-name-node-link"><a href="/nl/blikvangers/berbat-courgettes-en-cassettes">Lees meer</a></div></div> ",
+label: "<a href="/nl/blikvangers/berbat-courgettes-en-cassettes">Berbat – Courgettes en cassettes</a>"
+},
+{
+type: "point",
+lat: 51.0743769,
+lon: 3.7343076,
+popup: "<div class="ds-1col node node-location view-mode-on_the_map clearfix"> <div class="field field-name-title"><h2><a href="/nl/blikvangers/cafe-viking-een-tweede-thuis-voor-buitenlandse-zeelieden">Café Viking – Een tweede thuis voor buitenlandse zeelieden</a></h2></div><div class="field field-name-body">In 1965 begon Lisbeth Waldack op de Port Arthurlaan een café dat ze Viking noemde. Met...</div><div class="field field-name-node-link"><a href="/nl/blikvangers/cafe-viking-een-tweede-thuis-voor-buitenlandse-zeelieden">Lees meer</a></div></div> ",
+label: "<a href="/nl/blikvangers/cafe-viking-een-tweede-thuis-voor-buitenlandse-zeelieden">Café Viking – Een tweede thuis voor buitenlandse zeelieden</a>"
+},
+{
+type: "point",
+lat: 51.0480196,
+lon: 3.730436,
+popup: "<div class="ds-1col node node-location view-mode-on_the_map clearfix"> <div class="field field-name-title"><h2><a href="/nl/blikvangers/al-parma-da-gianni-pizza-aan-de-zuid">Al Parma-Da Gianni – Pizza aan de Zuid</a></h2></div><div class="field field-name-body">Al Parma-Da Gianni was een pionier onder de Italiaanse restaurants in Gent. Hoewel het...</div><div class="field field-name-node-link"><a href="/nl/blikvangers/al-parma-da-gianni-pizza-aan-de-zuid">Lees meer</a></div></div> ",
+label: "<a href="/nl/blikvangers/al-parma-da-gianni-pizza-aan-de-zuid">Al Parma-Da Gianni – Pizza aan de Zuid</a>"
+},
+{
+type: "point",
+lat: 51.0593065,
+lon: 3.7351492,
+popup: "<div class="ds-1col node node-location view-mode-on_the_map clearfix"> <div class="field field-name-title"><h2><a href="/nl/blikvangers/beluik-zondernaam-verborgen-wonen-onder-de-schoorsteen">Beluik Zondernaam - Verborgen wonen onder de schoorsteen</a></h2></div><div class="field field-name-body">Hier, op de plek waar nu het Zondernaampark is, lag in de jaren 60 nog een verwaarloosd...</div><div class="field field-name-node-link"><a href="/nl/blikvangers/beluik-zondernaam-verborgen-wonen-onder-de-schoorsteen">Lees meer</a></div></div> ",
+label: "<a href="/nl/blikvangers/beluik-zondernaam-verborgen-wonen-onder-de-schoorsteen">Beluik Zondernaam - Verborgen wonen onder de schoorsteen</a>"
+},
+{
+type: "point",
+lat: 51.0691475,
+lon: 3.7296094,
+popup: "<div class="ds-1col node node-location view-mode-on_the_map clearfix"> <div class="field field-name-title"><h2><a href="/nl/blikvangers/au-malaga-interimkantoor-voor-spaanse-dienstmeisjes">Au Malaga – Interimkantoor voor Spaanse dienstmeisjes</a></h2></div><div class="field field-name-body">‘Het centrum van de Spanjaarden’, zo noemden de Spaanse immigranten in de jaren 60 dit...</div><div class="field field-name-node-link"><a href="/nl/blikvangers/au-malaga-interimkantoor-voor-spaanse-dienstmeisjes">Lees meer</a></div></div> ",
+label: "<a href="/nl/blikvangers/au-malaga-interimkantoor-voor-spaanse-dienstmeisjes">Au Malaga – Interimkantoor voor Spaanse dienstmeisjes</a>"
+}
+] }
