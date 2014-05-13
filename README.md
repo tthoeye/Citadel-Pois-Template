@@ -1,16 +1,7 @@
-Citadel-Pois-Template
-=====================
+STAM: Blijven Plakken in Gent
+=============================
 
-CITADEL on the move - Mobile application template for Pois Of Interest - www.citadelonthemove.eu
+This is a PoC web application for the Ghent City Museum (STAM) exhibition on Immigration. It features a number of points-of-interest listed on the exhibition's public website: http://www.blijvenplakkeningent.be/blikvangers. These places are recognizable throughout the city thanks to a number of pillars that display pictures and text about the events that happened there. The museum also provides a number of narrated walking routes, through audio files that are downloadble from their website.
 
-Deployment
-
-1.  Put all the files under a folder named 'citadel-parkings-template' inside the web directory of your local webserver.
-2.  Open the Config.php file and fill in your root web directory,e.g. (in a WAMP default installation): 
-
-        define(“HTDOCS_ROOT”, “C:/wamp/www/”)
-3.  Open a browser and point it at: http://localhost/citadel-pois-template/index.php
-4.  The template application is up and running with the default sample dataset.
-
-For more details on how to install the template and the underlying technology please refer to the 
-[guide documents](doc/Installation Guide-POIs.docx) inside the 'doc' folder. 
+This application is based on the CITADEL on the move - Mobile application template for Pois Of Interest template.
+For more details please consult www.citadelonthemove.eu
