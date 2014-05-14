@@ -10,7 +10,7 @@
  * for example: "C:/wamp/www/" is the default root web dir in a standard wampServer setup)
  ***********************************************************
  */
-define("HTDOCS_ROOT", "C:/wamp/www/");  
+define("HTDOCS_ROOT", "/code/");  
 
 /*********************************************************** 
  * Replace 'localhost' with your IP address, 
@@ -26,14 +26,14 @@ define("SERVERNAME", "http://localhost/");
  ***********************************************************
  */
  
-define("BASE_DIR", "Citadel-Pois-Template/" );
+define("BASE_DIR", "stam-blijvenplakken/" );
 define("CLASSES_DIR", "php/");
 define("CLASSES", HTDOCS_ROOT . BASE_DIR . CLASSES_DIR);
 
 define("DEBUG", true);
 
 // dataset
-define("DATASET_FILE", HTDOCS_ROOT . BASE_DIR ."data/POI_gent.json");
+define("DATASET_FILE", HTDOCS_ROOT . BASE_DIR ."data/POI_blikvangers.json");
 define("DATASET_ID", 36);
 define("DATASET_URL", SERVERNAME . BASE_DIR . "dataset.php");
 define("USE_DATABASE", false);

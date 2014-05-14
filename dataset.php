@@ -31,7 +31,6 @@ else {
 
 	// TODO: should type check the source file
 	$assocArray = json_decode($json, true);
-
 	$poisDataset = Response::createFromArray(DatasetTypes::Poi, $assocArray);
 	Util::printJsonObj(new Response($poisDataset));
 }
