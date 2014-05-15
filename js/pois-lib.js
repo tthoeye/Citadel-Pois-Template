@@ -196,7 +196,6 @@ function setDetailPagePoi(poi)
     var image = getCitadel_attr(poi, "#Citadel_image").text;
     var telephone = getCitadel_attr(poi, "#Citadel_telephone").text;
     var website = getCitadel_attr(poi, "#Citadel_website").text;
-    alert(website);
     var email = getCitadel_attr(poi, "#Citadel_email").text;   
     var openHours = getCitadel_attr(poi, "#Citadel_openHours").text;
     var nearTransport = getCitadel_attr(poi, "#Citadel_nearTransport").text;

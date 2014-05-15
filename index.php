@@ -46,7 +46,7 @@
         <div data-role="page" id="page1" class="page">
             <header data-role="header" data-posistion="fixed" data-id="constantNav" data-fullscreen="true">
                 <span class="ui-title">Blijven plakken in Gent</span>
-                <a href="" id="filter" data-icon="gear" data-iconpos="notext" data-theme="a" title="Settings" class="ui-btn-left">&nbsp;</a>
+
                 <a href="#info" data-rel="dialog" data-icon="info" data-iconpos="notext" data-theme="a" title="Info" class="ui-btn-right">&nbsp;</a>
                 <div data-role="navbar" class="navbar">
                     <ul>
@@ -57,16 +57,7 @@
                 </div><!-- /navbar -->
             </header>
             
-            <div data-role="content" id="map-filter">
-                <div class="filters-list" id="mapFilterList">
-                    <fieldset data-role="controlgroup" data-mini="true" data-theme="a">
-                        <!-- dynamically filled with data -->
-                    </fieldset>
-                </div>
-                <footer data-role="footer" data-posistion="fixed" data-fullscreen="true" class="filter-footer">
-                    <a href="" id="apply" data-icon="gear" data-theme="a" title="Apply" class="ui-btn-right">Apply</a>
-                </footer>
-            </div><!--map-filter-->
+
 
             <div data-role="content" id="map-container">
                 <div id="map_canvas" class="map_canvas"></div>
@@ -79,10 +70,7 @@
 
             <header data-role="header" data-posistion="fixed" data-id="constantNav">
                 <span class="ui-title">Blijven plakken in Gent</span>
-                <fieldset data-role="controlgroup" class="favourites-button">
-                    <input type="checkbox" name="favourites" id="favourites" class="custom" />
-                    <label for="favourites">Favorieten</label>
-                </fieldset>
+
                 <a href="" data-icon="back" data-iconpos="notext" data-theme="a" title="Back" data-rel="back" class="ui-btn-right">&nbsp;</a>
                 <div data-role="navbar" class="navbar">
                     <ul>
