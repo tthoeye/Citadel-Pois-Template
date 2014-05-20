@@ -262,7 +262,6 @@ function setListPagePois()
 {
     var contentTemplate = "";
     var j = 0;
-    alert(window.location.search.replace( "?", "" ));
     $.each(pois, function(i, poi) {
         if (isFilterSelected(poi.category)) {
             j++;
