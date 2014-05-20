@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
     <head> 
-        <title>POIs Template</title> 
+        <title>Tree Finder</title> 
         <!--------------- Metatags ------------------->   
         <meta charset="utf-8" />
         <!-- Not allowing the user to zoom -->    
@@ -13,7 +13,6 @@
 
         <!--------------- CSS files ------------------->    
         <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />        
-        <link rel="stylesheet" href="css/pois.min.css" />
         <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile.structure-1.2.0.min.css" /> 
         <link rel="stylesheet" href="css/my.css" />
         
@@ -45,9 +44,9 @@
          <!-- Home Page: Contains the Map -->
         <div data-role="page" id="page1" class="page">
             <header data-role="header" data-posistion="fixed" data-id="constantNav" data-fullscreen="true">
-                <span class="ui-title">Points of Interest - POIs</span>
+                <span class="ui-title">Tree Finder</span>
                 <a href="" id="filter" data-icon="gear" data-iconpos="notext" data-theme="a" title="Settings" class="ui-btn-left">&nbsp;</a>
-                <a href="#info" data-rel="dialog" data-icon="info" data-iconpos="notext" data-theme="b" title="Info" class="ui-btn-right">&nbsp;</a>
+                <a href="#info" data-rel="dialog" data-icon="info" data-iconpos="notext" data-theme="a" title="Info" class="ui-btn-right">&nbsp;</a>
                 <div data-role="navbar" class="navbar">
                     <ul>
                         <li><a href="#" class="pois-nearme" data-theme="a">Near me</a></li>
@@ -78,7 +77,7 @@
         <div data-role="page" id="page2" class="page">
 
             <header data-role="header" data-posistion="fixed" data-id="constantNav">
-                <span class="ui-title"> Points of Interest - POIs </span>
+                <span class="ui-title">Tree Finder</span>
                 <fieldset data-role="controlgroup" class="favourites-button">
                     <input type="checkbox" name="favourites" id="favourites" class="custom" />
                     <label for="favourites">Favourites</label>
@@ -107,7 +106,7 @@
         <!-- Details Page: Contains the details of a selected element -->
         <div data-role="page" id="page3" data-title="Event fullstory page title" class="page">
             <header data-role="header" data-posistion="fixed" data-fullscreen="true">
-                <span class="ui-title"> Points of Interest - Events </span>
+                <span class="ui-title">Tree Finder</span>
                 <a href="" data-icon="back" data-iconpos="notext" data-theme="a" title="Back" data-rel="back" class="ui-btn-right">&nbsp;</a>
                 <div data-role="navbar" class="navbar">
                     <ul>

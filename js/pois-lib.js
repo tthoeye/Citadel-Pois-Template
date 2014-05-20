@@ -88,12 +88,12 @@ function addMarkers()
     infoBubble = new InfoBubble({
         shadowStyle: 1,
         padding: 0,
-        backgroundColor: '#756BB1',
+        backgroundColor: '#63D931',
         borderRadius: 10,
         arrowSize: 10,
         borderWidth: 2,
         maxWidth: 300,
-        borderColor: '#BCBDDC',
+        borderColor: '#009600',
         disableAutoPan: false,
         arrowPosition: 30,
         arrowStyle: 2,
@@ -133,14 +133,16 @@ function addMarkers()
 
 function getMarkerImage(category) {
     var coloredMarkers = new Array();
-
-    for (var j = 0; j < 10; j++) {
-        coloredMarkers[j] = 'images/pin' + j + '.png';
+ 
+    for (var j = 0; j < 12; j++) {
+        imgnum = j + 1;
+        coloredMarkers[j] = 'images/trees/' + imgnum + '.png';
     }
 
     for (i = 0; i < filters.length; i++) {
         if (filters[i].name == category) {
-            return coloredMarkers[i % 10];
+
+            return coloredMarkers[i % 12];
         }
     }
 }
@@ -180,8 +182,8 @@ function setInfoWindowPoi(poi)
         "<div class='title'>" +
         poi.title +
         "</div>" +
-        "<div class='address'>" + poi.location.address.value +
-        "</div>\n" + category +
+        "<div class='address'>" + poi.description +
+        "</div>\n Year planted: " + getCitadel_attr(poi, "#Citadel_telephone").text +
         "</a></div><div id='bubbleClose'><a href='' onclick='return overrideBubbleCloseClick();'><img src='images/close.png' width='25' height='25' alt='close' /></a></div>";
 
     return contentTemplate;
@@ -226,7 +228,7 @@ function setDetailPagePoi(poi)
 
     /* Display the Event specific attributes of the POI if they exist */
     if (telephone)
-        contentTemplate += "<li><span class='image-icon'><img src='images/small-phone.png' alt='Telephone' /></span><span class='image-text'><a href='tel:" + telephone + "'>" + telephone + "</a></span></li>";
+        contentTemplate += "<li><span class='image-icon'><img src='images/small-planted.png' alt='Year planted' /></span><span class='image-text'><a href='#'>Year planted: " + telephone + "</a></span></li>";
     if (website)
         contentTemplate += "<li><span class='image-icon'><img src='images/small-website.png' alt='Telephone' /></span><span class='image-text'><a href='" + website + "' target='_blank'>" + website + "</a></span></li>";
     if (email)
@@ -259,10 +261,11 @@ function setDetailPagePoi(poi)
 function setListPagePois()
 {
     var contentTemplate = "";
-
+    var j = 0;
+    alert(window.location.search.replace( "?", "" ));
     $.each(pois, function(i, poi) {
         if (isFilterSelected(poi.category)) {
-      
+            j++;
             var category = "";
             if (poi.category) {
                 category = "<p>" +
@@ -279,9 +282,12 @@ function setListPagePois()
                 "<span class='" + imageClass + " icon'></span>" +
                 "<h3>" + poi.title + "</h3>" +
                 "<h4>" + poi.description + "</h4>" +
-                category +
+                i +
                 "</a>" +
                 "</li>";
+        }
+        if (j > 20) {
+          return false;
         }
     });
     return contentTemplate;
@@ -584,9 +590,10 @@ function setFilters() {
     for (i = 0; i < filters.length; i++) {
         var filter = filters[i];
         var checked = filter.selected?' checked':'';
+        var imgnum = i % 13 + 1;
         
         filters_html += "<input type='checkbox'" + checked + " name='map-filter' id='map-filter" + i + "' class='map-filter' value=\"" + filter.name + "\" />" +
-                "<label for='map-filter" + i + "'><img id='img_style' src='images/pin" + i + ".png'/> " + filter.name + "</label>";
+                "<label for='map-filter" + i + "'><img id='img_style' src='images/trees/" + imgnum + ".png'/> " + filter.name + "</label>";
     }
     $('#map-filter > div > fieldset').html(filters_html);
     $('#map-filter > div > fieldset > input').checkboxradio({ mini: true});
