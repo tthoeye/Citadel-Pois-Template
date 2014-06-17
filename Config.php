@@ -26,14 +26,14 @@ define("SERVERNAME", "http://localhost/");
  ***********************************************************
  */
  
-define("BASE_DIR", "Citadel-Pois-Template/" );
+define("BASE_DIR", "kunstenplan/" );
 define("CLASSES_DIR", "php/");
 define("CLASSES", HTDOCS_ROOT . BASE_DIR . CLASSES_DIR);
 
 define("DEBUG", true);
 
 // dataset
-define("DATASET_FILE", HTDOCS_ROOT . BASE_DIR ."data/POI_gent.json");
+define("DATASET_FILE", HTDOCS_ROOT . BASE_DIR ."data/kunstenplan_geocoded.json");
 define("DATASET_ID", 36);
 define("DATASET_URL", SERVERNAME . BASE_DIR . "dataset.php");
 define("USE_DATABASE", false);
