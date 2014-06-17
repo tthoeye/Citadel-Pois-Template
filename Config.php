@@ -10,7 +10,7 @@
  * for example: "C:/wamp/www/" is the default root web dir in a standard wampServer setup)
  ***********************************************************
  */
-define("HTDOCS_ROOT", "/code/");  
+define("HTDOCS_ROOT", "/var/www/binarysunset.net/htdocs/citadel/");  
 
 /*********************************************************** 
  * Replace 'localhost' with your IP address, 
@@ -18,7 +18,7 @@ define("HTDOCS_ROOT", "/code/");
  * connected to the same network 
  ***********************************************************
  */
-define("SERVERNAME", "http://localhost/"); 
+define("SERVERNAME", "http://citadel.binarysunset.net/"); 
 
 /*********************************************************** 
  * Leave all the settings below unchanged if you only want
@@ -39,8 +39,8 @@ define("DATASET_URL", SERVERNAME . BASE_DIR . "dataset.php");
 define("USE_DATABASE", false);
 
 // Map Options (coords point to center of Gent)
-define("MAP_CENTER_LATITUDE", 51.033261); 
-define("MAP_CENTER_LONGITUDE", 3.726488);
+define("MAP_CENTER_LATITUDE", 51.0575924); 
+define("MAP_CENTER_LONGITUDE", 3.7219496);
 define("MAP_ZOOM", 16);
 
 // database

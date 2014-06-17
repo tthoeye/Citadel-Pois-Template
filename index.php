@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
     <head> 
-        <title>POIs Template</title> 
+        <title>Kunstenplan</title> 
         <!--------------- Metatags ------------------->   
         <meta charset="utf-8" />
         <!-- Not allowing the user to zoom -->    
@@ -13,10 +13,9 @@
 
         <!--------------- CSS files ------------------->    
         <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />        
-        <link rel="stylesheet" href="css/pois.min.css" />
+
         <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile.structure-1.2.0.min.css" /> 
         <link rel="stylesheet" href="css/my.css" />
-        
             
         <!--------------- Javascript dependencies -------------------> 
             
@@ -45,26 +44,26 @@
          <!-- Home Page: Contains the Map -->
         <div data-role="page" id="page1" class="page">
             <header data-role="header" data-posistion="fixed" data-id="constantNav" data-fullscreen="true">
-                <span class="ui-title">Points of Interest - POIs</span>
-                <a href="" id="filter" data-icon="gear" data-iconpos="notext" data-theme="a" title="Settings" class="ui-btn-left">&nbsp;</a>
+                <span class="ui-title">Kunstenplan</span>
+                <a href="" id="filter" data-icon="gear" data-iconpos="notext" data-theme="b" title="Settings" class="ui-btn-left">&nbsp;</a>
                 <a href="#info" data-rel="dialog" data-icon="info" data-iconpos="notext" data-theme="b" title="Info" class="ui-btn-right">&nbsp;</a>
                 <div data-role="navbar" class="navbar">
                     <ul>
-                        <li><a href="#" class="pois-nearme" data-theme="a">Near me</a></li>
-                        <li><a href="#" class="pois-showall ui-btn-active" data-theme="a">Show all</a></li>
-                        <li><a href="#page2" class="pois-list" data-theme="a">List</a></li>
+                        <li><a href="#" class="pois-nearme" data-theme="b">In de buurt</a></li>
+                        <li><a href="#" class="pois-showall ui-btn-active" data-theme="b">Kaart</a></li>
+                        <li><a href="#page2" class="pois-list" data-theme="b">Lijst</a></li>
                     </ul>
                 </div><!-- /navbar -->
             </header>
             
             <div data-role="content" id="map-filter">
                 <div class="filters-list" id="mapFilterList">
-                    <fieldset data-role="controlgroup" data-mini="true" data-theme="a">
+                    <fieldset data-role="controlgroup" data-mini="true" data-theme="b">
                         <!-- dynamically filled with data -->
                     </fieldset>
                 </div>
                 <footer data-role="footer" data-posistion="fixed" data-fullscreen="true" class="filter-footer">
-                    <a href="" id="apply" data-icon="gear" data-theme="a" title="Apply" class="ui-btn-right">Apply</a>
+                    <a href="" id="apply" data-icon="gear" data-theme="b" title="Apply" class="ui-btn-right">Toepassen</a>
                 </footer>
             </div><!--map-filter-->
 
@@ -78,17 +77,17 @@
         <div data-role="page" id="page2" class="page">
 
             <header data-role="header" data-posistion="fixed" data-id="constantNav">
-                <span class="ui-title"> Points of Interest - POIs </span>
+                <span class="ui-title">Kunstenplan</span>
                 <fieldset data-role="controlgroup" class="favourites-button">
                     <input type="checkbox" name="favourites" id="favourites" class="custom" />
-                    <label for="favourites">Favourites</label>
+                    <label for="favourites">Favorieten</label>
                 </fieldset>
-                <a href="" data-icon="back" data-iconpos="notext" data-theme="a" title="Back" data-rel="back" class="ui-btn-right">&nbsp;</a>
+                <a href="" data-icon="back" data-iconpos="notext" data-theme="b" title="Back" data-rel="back" class="ui-btn-right">&nbsp;</a>
                 <div data-role="navbar" class="navbar">
                     <ul>
-                        <li><a href="#" class="pois-nearme" data-theme="a">Near me</a></li>
-                        <li><a href="#" class="pois-showall" data-theme="a">Show all</a></li>
-                        <li><a href="#page2" class="pois-list ui-btn-active" data-theme="a">List</a></li>
+                        <li><a href="#" class="pois-nearme" data-theme="b">In de buurt</a></li>
+                        <li><a href="#" class="pois-showall" data-theme="b">Kaart</a></li>
+                        <li><a href="#page2" class="pois-list ui-btn-active" data-theme="b">Lijst</a></li>
                     </ul>
                 </div><!-- /navbar -->
             </header>
@@ -112,13 +111,13 @@
         <!-- Details Page: Contains the details of a selected element -->
         <div data-role="page" id="page3" data-title="Event fullstory page title" class="page">
             <header data-role="header" data-posistion="fixed" data-fullscreen="true">
-                <span class="ui-title"> Points of Interest - Events </span>
-                <a href="" data-icon="back" data-iconpos="notext" data-theme="a" title="Back" data-rel="back" class="ui-btn-right">&nbsp;</a>
+                <span class="ui-title">Kunstenplan</span>
+                <a href="" data-icon="back" data-iconpos="notext" data-theme="b" title="Back" data-rel="back" class="ui-btn-right">&nbsp;</a>
                 <div data-role="navbar" class="navbar">
                     <ul>
-                        <li><a href="#" class="pois-nearme" data-theme="a">Near me</a></li>
-                        <li><a href="#" class="pois-showall" data-theme="a">Show all</a></li>
-                        <li><a href="#page2" class="pois-list" data-theme="a">List</a></li>
+                        <li><a href="#" class="pois-nearme" data-theme="b">In de buurt</a></li>
+                        <li><a href="#" class="pois-showall" data-theme="b">Kaart</a></li>
+                        <li><a href="#page2" class="pois-list" data-theme="b">Lijst</a></li>
                     </ul>
                 </div><!-- /navbar --> 
             </header>
@@ -132,8 +131,8 @@
             </div><!--list-container-->
                 
             <footer data-role="footer" data-posistion="fixed" data-fullscreen="true">
-                <a href="" id="addFav" data-icon="star" data-theme="a" title="Add to favourites" data-rel="star" class="ui-btn-center">Add to favourites</a>
-                <a href="" id="removeFav" data-icon="star" data-theme="a" title="Remove from favourites" data-rel="star" class="ui-btn-center">Remove from favourites</a>
+                <a href="" id="addFav" data-icon="star" data-theme="b" title="Add to favourites" data-rel="star" class="ui-btn-center">Toevoegen aan favorieten</a>
+                <a href="" id="removeFav" data-icon="star" data-theme="b" title="Remove from favourites" data-rel="star" class="ui-btn-center">Verwijderen uit favorieten</a>
             </footer>
                 
         </div><!-- /page -->
