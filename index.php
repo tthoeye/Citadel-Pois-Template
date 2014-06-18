@@ -45,25 +45,25 @@
         <div data-role="page" id="page1" class="page">
             <header data-role="header" data-posistion="fixed" data-id="constantNav" data-fullscreen="true">
                 <span class="ui-title">Kunstenplan</span>
-                <a href="" id="filter" data-icon="gear" data-iconpos="notext" data-theme="b" title="Settings" class="ui-btn-left">&nbsp;</a>
-                <a href="#info" data-rel="dialog" data-icon="info" data-iconpos="notext" data-theme="b" title="Info" class="ui-btn-right">&nbsp;</a>
+                <a href="" id="filter" data-icon="gear" data-iconpos="notext" data-theme="c" title="Settings" class="ui-btn-left">&nbsp;</a>
+                <a href="#info" data-rel="dialog" data-icon="info" data-iconpos="notext" data-theme="c" title="Info" class="ui-btn-right">&nbsp;</a>
                 <div data-role="navbar" class="navbar">
                     <ul>
-                        <li><a href="#" class="pois-nearme" data-theme="b">In de buurt</a></li>
-                        <li><a href="#" class="pois-showall ui-btn-active" data-theme="b">Kaart</a></li>
-                        <li><a href="#page2" class="pois-list" data-theme="b">Lijst</a></li>
+                        <li><a href="#" class="pois-nearme" data-theme="c">In de buurt</a></li>
+                        <li><a href="#" class="pois-showall ui-btn-active" data-theme="c">Kaart</a></li>
+                        <li><a href="#page2" class="pois-list" data-theme="c">Lijst</a></li>
                     </ul>
                 </div><!-- /navbar -->
             </header>
             
             <div data-role="content" id="map-filter">
                 <div class="filters-list" id="mapFilterList">
-                    <fieldset data-role="controlgroup" data-mini="true" data-theme="b">
+                    <fieldset data-role="controlgroup" data-mini="true" data-theme="c">
                         <!-- dynamically filled with data -->
                     </fieldset>
                 </div>
                 <footer data-role="footer" data-posistion="fixed" data-fullscreen="true" class="filter-footer">
-                    <a href="" id="apply" data-icon="gear" data-theme="b" title="Apply" class="ui-btn-right">Toepassen</a>
+                    <a href="" id="apply" data-icon="gear" data-theme="c" title="Apply" class="ui-btn-right">Toepassen</a>
                 </footer>
             </div><!--map-filter-->
 
@@ -82,12 +82,12 @@
                     <input type="checkbox" name="favourites" id="favourites" class="custom" />
                     <label for="favourites">Favorieten</label>
                 </fieldset>
-                <a href="" data-icon="back" data-iconpos="notext" data-theme="b" title="Back" data-rel="back" class="ui-btn-right">&nbsp;</a>
+                <a href="" data-icon="back" data-iconpos="notext" data-theme="c" title="Back" data-rel="back" class="ui-btn-right">&nbsp;</a>
                 <div data-role="navbar" class="navbar">
                     <ul>
-                        <li><a href="#" class="pois-nearme" data-theme="b">In de buurt</a></li>
-                        <li><a href="#" class="pois-showall" data-theme="b">Kaart</a></li>
-                        <li><a href="#page2" class="pois-list ui-btn-active" data-theme="b">Lijst</a></li>
+                        <li><a href="#" class="pois-nearme" data-theme="c">In de buurt</a></li>
+                        <li><a href="#" class="pois-showall" data-theme="c">Kaart</a></li>
+                        <li><a href="#page2" class="pois-list ui-btn-active" data-theme="c">Lijst</a></li>
                     </ul>
                 </div><!-- /navbar -->
             </header>
@@ -112,12 +112,12 @@
         <div data-role="page" id="page3" data-title="Event fullstory page title" class="page">
             <header data-role="header" data-posistion="fixed" data-fullscreen="true">
                 <span class="ui-title">Kunstenplan</span>
-                <a href="" data-icon="back" data-iconpos="notext" data-theme="b" title="Back" data-rel="back" class="ui-btn-right">&nbsp;</a>
+                <a href="" data-icon="back" data-iconpos="notext" data-theme="c" title="Back" data-rel="back" class="ui-btn-right">&nbsp;</a>
                 <div data-role="navbar" class="navbar">
                     <ul>
-                        <li><a href="#" class="pois-nearme" data-theme="b">In de buurt</a></li>
-                        <li><a href="#" class="pois-showall" data-theme="b">Kaart</a></li>
-                        <li><a href="#page2" class="pois-list" data-theme="b">Lijst</a></li>
+                        <li><a href="#" class="pois-nearme" data-theme="c">In de buurt</a></li>
+                        <li><a href="#" class="pois-showall" data-theme="c">Kaart</a></li>
+                        <li><a href="#page2" class="pois-list" data-theme="c">Lijst</a></li>
                     </ul>
                 </div><!-- /navbar --> 
             </header>
@@ -131,8 +131,8 @@
             </div><!--list-container-->
                 
             <footer data-role="footer" data-posistion="fixed" data-fullscreen="true">
-                <a href="" id="addFav" data-icon="star" data-theme="b" title="Add to favourites" data-rel="star" class="ui-btn-center">Toevoegen aan favorieten</a>
-                <a href="" id="removeFav" data-icon="star" data-theme="b" title="Remove from favourites" data-rel="star" class="ui-btn-center">Verwijderen uit favorieten</a>
+                <a href="" id="addFav" data-icon="star" data-theme="c" title="Add to favourites" data-rel="star" class="ui-btn-center">Toevoegen aan favorieten</a>
+                <a href="" id="removeFav" data-icon="star" data-theme="c" title="Remove from favourites" data-rel="star" class="ui-btn-center">Verwijderen uit favorieten</a>
             </footer>
                 
         </div><!-- /page -->

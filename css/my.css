@@ -35,7 +35,7 @@ header.ui-header, footer.ui-footer {
 }
 .page {
     padding-top:78px;
-    background: #BCBDDC;
+    background: #EEE;
     overflow: hidden;
 }
 #page1 {
@@ -122,7 +122,7 @@ header.ui-header, footer.ui-footer {
 .list-scroll-container {
     overflow: hidden;
     /*overflow: auto;*/
-    background: #756BB1;
+    background: #333;
     -webkit-border-radius: 12px;
     -moz-border-radius: 12px;
     border-radius: 12px;
@@ -145,7 +145,7 @@ header.ui-header, footer.ui-footer {
     width:85%;
 }
 #list form {
-    background: #756BB1;
+    background: #333;
 }
 #list form input {
     /*color:white;*/
@@ -153,10 +153,10 @@ header.ui-header, footer.ui-footer {
 #list ul li {
     padding-top:.5%;
     padding-bottom:.5%;
-    border-bottom: 1px solid #90B17E;
+    border-bottom: 1px solid #666;
 }
 #list ul li.ui-btn-up-b {
-    background: #756BB1;
+    background: #333;
     background-image: none !important;
     border-top-width: 0;
 }
@@ -368,6 +368,9 @@ header.ui-header, footer.ui-footer {
   margin: 0px 11px 20px 11px;
 }
 
+.ui-checkbox-on .ui-icon, .ui-radio-on .ui-icon {
+  background-color: #333;
+}
 
 /*Overload jquery ui css*/
 .ui-bar-a {
