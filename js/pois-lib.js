@@ -57,8 +57,124 @@ function initializeMap(Lat, Lon) {
     var mapOptions = {
         center: myLatlng,
         zoom: mapZoom,
-        mapTypeId: google.maps.MapTypeId.ROADMAP
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
+        styles: [
+        {
+            "stylers": [
+                {
+                    "saturation": -100
+                },
+                {
+                    "gamma": 1
+                }
+            ]
+        },
+        {
+            "elementType": "labels.text.stroke",
+            "stylers": [
+                {
+                    "visibility": "off"
+                }
+            ]
+        },
+        {
+            "featureType": "poi.business",
+            "elementType": "labels.text",
+            "stylers": [
+                {
+                    "visibility": "off"
+                }
+            ]
+        },
+        {
+            "featureType": "poi.business",
+            "elementType": "labels.icon",
+            "stylers": [
+                {
+                    "visibility": "off"
+                }
+            ]
+        },
+        {
+            "featureType": "poi.place_of_worship",
+            "elementType": "labels.text",
+            "stylers": [
+                {
+                    "visibility": "off"
+                }
+            ]
+        },
+        {
+            "featureType": "poi.place_of_worship",
+            "elementType": "labels.icon",
+            "stylers": [
+                {
+                    "visibility": "off"
+                }
+            ]
+        },
+        {
+            "featureType": "road",
+            "elementType": "geometry",
+            "stylers": [
+                {
+                    "visibility": "simplified"
+                }
+            ]
+        },
+        {
+            "featureType": "water",
+            "stylers": [
+                {
+                    "visibility": "on"
+                },
+                {
+                    "saturation": 50
+                },
+                {
+                    "gamma": 0
+                },
+                {
+                    "hue": "#50a5d1"
+                }
+            ]
+        },
+        {
+            "featureType": "administrative.neighborhood",
+            "elementType": "labels.text.fill",
+            "stylers": [
+                {
+                    "color": "#333333"
+                }
+            ]
+        },
+        {
+            "featureType": "road.local",
+            "elementType": "labels.text",
+            "stylers": [
+                {
+                    "weight": 0.5
+                },
+                {
+                    "color": "#333333"
+                }
+            ]
+        },
+        {
+            "featureType": "transit.station",
+            "elementType": "labels.icon",
+            "stylers": [
+                {
+                    "gamma": 1
+                },
+                {
+                    "saturation": 50
+                }
+            ]
+        }
+    ]
     };
+    
     //instantiate the map wih the options and put it in the div holder, "map-canvas"
     map = new google.maps.Map(document.getElementById("map_canvas"),
         mapOptions);
@@ -109,7 +225,10 @@ function addMarkers()
              */
             var coords = poi.location.point.pos.posList.split(" ");
             var current_markerpos = new google.maps.LatLng(coords[0], coords[1]);
-            var marker_image = getFavouriteValue(poi.id) ? "images/star.png" : getMarkerImage(poi.category[0]);
+            var marker_image = {
+              url: getFavouriteValue(poi.id) ? "images/star.png" : getMarkerImage(poi.category[0]),
+              size: new google.maps.Size(35, 35)
+            }
             var current_marker = new google.maps.Marker({
                 position: current_markerpos,
                 map: map,
@@ -617,7 +736,7 @@ function setFilters() {
         var checked = filter.selected?' checked':'';
         
         filters_html += "<input type='checkbox'" + checked + " name='map-filter' id='map-filter" + i + "' class='map-filter' value=\"" + filter.name + "\" />" +
-                "<label for='map-filter" + i + "'><img id='img_style' src='images/pin" + i + ".png'/> " + filter.name + "</label>";
+                "<label for='map-filter" + i + "'><i class='pin pin" + i + "'/>&nbsp;</i> " + filter.name + "</label>";
     }
     $('#map-filter > div > fieldset').html(filters_html);
     $('#map-filter > div > fieldset > input').checkboxradio({ mini: true});

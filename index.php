@@ -12,10 +12,11 @@
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
         <!--------------- CSS files ------------------->    
-        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />        
-
+    
         <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile.structure-1.2.0.min.css" /> 
+  
         <link rel="stylesheet" href="css/my.css" />
+        <link rel="stylesheet" href="css/ionicons.min.css" />
             
         <!--------------- Javascript dependencies -------------------> 
             
@@ -45,7 +46,7 @@
         <div data-role="page" id="page1" class="page">
             <header data-role="header" data-posistion="fixed" data-id="constantNav" data-fullscreen="true">
                 <span class="ui-title">Kunstenplan</span>
-                <a href="" id="filter" data-icon="gear" data-iconpos="notext" data-theme="c" title="Settings" class="ui-btn-left">&nbsp;</a>
+                <a href="" id="filter" title="dfSettings" class="ion-navicon">&nbsp;</a>
                 <a href="#info" data-rel="dialog" data-icon="info" data-iconpos="notext" data-theme="c" title="Info" class="ui-btn-right">&nbsp;</a>
                 <div data-role="navbar" class="navbar">
                     <ul>
