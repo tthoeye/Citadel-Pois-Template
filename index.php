@@ -45,7 +45,7 @@
          <!-- Home Page: Contains the Map -->
         <div data-role="page" id="page1" class="page">
             <header data-role="header" data-posistion="fixed" data-id="constantNav" data-fullscreen="true">
-                <span class="ui-title">Kunstenplan</span>
+
                 <a href="" id="filter" title="dfSettings" class="ion-navicon">&nbsp;</a>
                 <a href="#info" data-rel="dialog" data-icon="info" data-iconpos="notext" data-theme="c" title="Info" class="ui-btn-right">&nbsp;</a>
                 <div data-role="navbar" class="navbar">
@@ -78,7 +78,6 @@
         <div data-role="page" id="page2" class="page">
 
             <header data-role="header" data-posistion="fixed" data-id="constantNav">
-                <span class="ui-title">Kunstenplan</span>
                 <fieldset data-role="controlgroup" class="favourites-button">
                     <input type="checkbox" name="favourites" id="favourites" class="custom" />
                     <label for="favourites">Favorieten</label>
@@ -112,7 +111,7 @@
         <!-- Details Page: Contains the details of a selected element -->
         <div data-role="page" id="page3" data-title="Event fullstory page title" class="page">
             <header data-role="header" data-posistion="fixed" data-fullscreen="true">
-                <span class="ui-title">Kunstenplan</span>
+
                 <a href="" data-icon="back" data-iconpos="notext" data-theme="c" title="Back" data-rel="back" class="ui-btn-right">&nbsp;</a>
                 <div data-role="navbar" class="navbar">
                     <ul>

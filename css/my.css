@@ -15,7 +15,7 @@ html, body {
   /*overflow:hidden;*/
 }
 
-.ui-bar-a {
+header.ui-bar-a {
   background: #333 url('../images/logo.png') no-repeat !important;
   background-position: right top !important;
   text-shadow: none;
@@ -25,7 +25,7 @@ html, body {
     only screen and (-o-min-device-pixel-ratio: 3/2),
     only screen and (min--moz-device-pixel-ratio: 1.5),
     only screen and (min-device-pixel-ratio: 1.5) {
-        .ui-bar-a { 
+        header.ui-bar-a { 
           background: #333 url('../images/logo_large.png') no-repeat !important; 
           background-size: 98px auto !important;
         }
