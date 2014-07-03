@@ -61,10 +61,13 @@ header.ui-header, footer.ui-footer {
 #filter {
   font-size: 30px;
 }
-input[type='checkbox'] {
-  display: none;
-}
 
+input[type="checkbox"] {
+  filter: alpha(opacity=0);
+  -moz-opacity: 0;
+  -webkit-opacity: 0;
+  opacity: 0;
+}
 .ui-icon-checkbox-on:before {
   font-family: "Ionicons";
   font-size: 20px;
