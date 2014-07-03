@@ -46,7 +46,7 @@
         <div data-role="page" id="page1" class="page">
             <header data-role="header" data-posistion="fixed" data-id="constantNav" data-fullscreen="true">
                 <span class="ui-title">Kunstenplan</span>
-                <a href="" id="filter" title="dfSettings" class="ion-navicon">&nbsp;</a>
+                <a href="" id="filter" title="Open menu filter op categorie" class="ion-navicon">&nbsp;</a>
                 <div data-role="navbar" class="navbar">
                     <ul>
                         <li><a href="#" class="pois-nearme" data-theme="c">In de buurt</a></li>
@@ -95,7 +95,7 @@
             <div class="list-container">
                 <div class="list-scroll-container">
                     <div data-role="content" id="list" class="poi">
-                        <ul data-role='listview' data-filter='true' data-theme='b'>
+                        <ul id="search" data-role='listview' data-filter='true' data-theme='b' data-input="#filterable-input'>
                         <!-- dynamically filled with data -->
                         </ul>
                     </div><!--list-->
