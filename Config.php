@@ -10,7 +10,7 @@
  * for example: "C:/wamp/www/" is the default root web dir in a standard wampServer setup)
  ***********************************************************
  */
-define("HTDOCS_ROOT", "/var/www/binarysunset.net/htdocs/citadel/");  
+define("HTDOCS_ROOT", "/code/");  
 
 /*********************************************************** 
  * Replace 'localhost' with your IP address, 
@@ -18,7 +18,7 @@ define("HTDOCS_ROOT", "/var/www/binarysunset.net/htdocs/citadel/");
  * connected to the same network 
  ***********************************************************
  */
-define("SERVERNAME", "http://citadel.binarysunset.net//"); 
+define("SERVERNAME", "http://localhost/"); 
 
 /*********************************************************** 
  * Leave all the settings below unchanged if you only want

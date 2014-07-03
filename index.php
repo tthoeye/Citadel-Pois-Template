@@ -56,7 +56,7 @@
                 </div><!-- /navbar -->
             </header>
             
-            <div data-role="content" id="map-filter">
+            <div data-role="content" id="map-filter" class="accessibly-hidden">
                 <div class="filters-list" id="mapFilterList">
                     <fieldset data-role="controlgroup" data-mini="true" data-theme="c">
                         <!-- dynamically filled with data -->

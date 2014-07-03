@@ -652,10 +652,15 @@ $(document).ready(function() {
     
     /* Click handler for the filters button */    
     $('#filter').click(function() {
-        if ($('#map-filter').is(":visible")) {
-            $('#map-filter').slideUp();
+        if ($('#map-filter').hasClass("accessibly-hidden")) {
+            $('#map-filter').removeClass('accessibly-hidden');
+            $('#map-filter').animate({ height: 160, paddingTop: 85 }, { duration: 'slow' }, function() {
+                $('#map-filter0').focus();
+            });
         } else {
-            $('#map-filter').slideDown();
+            $('#map-filter').animate({ height: 0, paddingTop: 0 }, { duration: 'slow' }, function() {
+                $('#map-filter').addClass('accessibly-hidden')
+            });
         }
         return false;
     });
@@ -730,16 +735,17 @@ $(document).ready(function() {
 /* Sets the available filters  */
 function setFilters() {
     var filters_html = "";
-
+    var i;
     for (i = 0; i < filters.length; i++) {
         var filter = filters[i];
         var checked = filter.selected?' checked':'';
         
-        filters_html += "<input type='checkbox'" + checked + " name='map-filter' id='map-filter" + i + "' class='map-filter' value=\"" + filter.name + "\" />" +
+        filters_html += "<input type='checkbox'" + checked + " tabindex='" + i + "' name='map-filter' id='map-filter" + i + "' class='map-filter' value=\"" + filter.name + "\" />" +
                 "<label for='map-filter" + i + "'><i class='pin pin" + i + "'/>&nbsp;</i> " + filter.name + "</label>";
     }
     $('#map-filter > div > fieldset').html(filters_html);
     $('#map-filter > div > fieldset > input').checkboxradio({ mini: true});
+
 }
 
 /* Refreshes the map when the mobile device

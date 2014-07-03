@@ -45,6 +45,18 @@
                       "type": "url",
                       "text": "www.tatjanapieters.com",
                       "tplIdentifier": "#Citadel_website"
+                    },
+                    {
+                      "term": "Image",
+                      "type": "url",
+                      "text": "http://www.geeftvorm.com/wp-content/uploads/2013/09/imac_funda1.png",
+                      "tplIdentifier": "#Citadel_image"
+                    },
+                    {
+                      "term": "Opening Hours",
+                      "type": "text",
+                      "text": "Ma - Zo 24/24",
+                      "tplIdentifier": "#Citadel_openHours"
                     }
                 ]
             },
