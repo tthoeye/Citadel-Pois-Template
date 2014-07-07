@@ -95,14 +95,14 @@
             <div class="list-container">
                 <div class="list-scroll-container">
                     <div data-role="content" id="list" class="poi">
-                        <ul id="search" data-role='listview' data-filter='true' data-theme='b' data-input="#filterable-input'>
+                        <ul id="search" data-role='listview' data-filter='true' data-theme='b'>
                         <!-- dynamically filled with data -->
                         </ul>
                     </div><!--list-->
                     <div class="list-pagination-container">
-                        <a id="list-pagination-previous" class="ui-icon ui-icon-arrow-l ui-icon-shadow">&nbsp;</a>
+                        <a id="list-pagination-previous" href="#"><span class="accessibly-hidden">List previous items</span><i class="ci-icon ci-icon-left-arrow">&nbsp;</i></a>
                         <span id="list-pagination-text"><!-- dynamically filled with data --></span>
-                        <a id="list-pagination-next" class="ui-icon ui-icon-arrow-r ui-icon-shadow">&nbsp;</a>
+                        <a id="list-pagination-next" href="#"><span class="accessibly-hidden">List next items</span><i class="ci-icon ci-icon-right-arrow">&nbsp;</i></a>
                     </div>
                 </div><!--list-scroll-container-->
             </div><!--list-container-->

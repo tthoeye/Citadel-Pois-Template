@@ -381,10 +381,14 @@ function setListPagePois(offset)
     if (!offset) {
       offset = 0;
     }
+
     var contentTemplate = "";
-    var limit = (paginationNum > 0) ? offset + paginationNum : Object.keys(pois).length;
+    var keys = Object.keys(pois);
+    var limit = (paginationNum > 0) ? offset + paginationNum : keys.length;
     for (var i = offset; i < limit; i++) {
-        var poi = pois[i + 1];
+
+        var poi = pois[keys[i + 1]];
+
         if (isFilterSelected(poi.category)) {
       
             var category = "";
@@ -402,7 +406,6 @@ function setListPagePois(offset)
                 "<a href='' onclick='overrideDetailClick(\"" + poi.id + "\"); return false;'>" +
                 "<span class='" + imageClass + " icon'></span>" +
                 "<h3>" + poi.title + "</h3>" +
-                "<h4>" + poi.description + "</h4>" +
                 category +
                 "</a>" +
                 "</li>";
@@ -529,16 +532,27 @@ function refreshListPageView(offset) {
         pages = Math.floor(totalNum/paginationNum);
         page = Math.floor(offset/paginationNum);
 
-        $("#list-pagination-previous").unbind().click(function() {
+        if (page == 0) {
+          $("#list-pagination-previous").hide();
+        } else {
+          $("#list-pagination-previous").show();
+          $("#list-pagination-previous").unbind().click(function() {
             var prev = (page-1)*paginationNum;
             loadListPageData(prev);
             refreshListPageView(prev);
-        });
-        $("#list-pagination-next").unbind().click(function() {
+          });
+        }
+        
+        if ((page + 1) == pages) {
+          $("#list-pagination-next").hide();
+        } else {
+          $("#list-pagination-next").show();
+          $("#list-pagination-next").unbind().click(function() {
             var next = (page+1)*paginationNum;
             loadListPageData(next);
             refreshListPageView(next);
-        });
+          });
+        }
     }
     $('#list-pagination-text').html('page ' + (page + 1) + ' of ' + pages);
 }
@@ -839,7 +853,7 @@ function removeLocalValue(key) {
 }
 /* Retrieve favourite value */
 function getFavouriteValue(id) {
-    return getLocalValue('favouritepois' + id)?true:false;
+    return getLocalValue('favouritepois' + id) ? true : false;
 }
 /* If local storage is supported show favourite button */
 function showFavouriteButtons(id) {

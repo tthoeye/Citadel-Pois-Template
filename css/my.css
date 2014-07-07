@@ -32,6 +32,10 @@ header.ui-bar-a {
         }
 }
 
+.icon {
+  color: white;
+  font-size: 32px;
+}
 a {
   color: white;
   text-decoration: none;
@@ -414,6 +418,7 @@ input[type="checkbox"] {
 /* List pagination markup */
 .list-pagination-container {
   text-align: center;
+  padding-bottom: 20px;
 }
 .list-pagination-container > .ui-icon {
   display: inline-block;
@@ -450,6 +455,17 @@ input[type="checkbox"] {
   -moz-osx-font-smoothing: grayscale;
   color: #fff;
 }
+.ci-icon-left-arrow:before {
+  font-family: 'Ionicons';
+  content: '\f107';
+  font-style: normal;
+}
+.ci-icon-right-arrow:before {
+  font-family: 'Ionicons';
+  content: '\f10a';
+  font-style: normal;
+}
+
 .pin0:before {
   font-family: 'Ionicons';
   content: '\f147';
@@ -537,6 +553,13 @@ input[type="checkbox"] {
     height: 0px;
 }
 
+a span.accessibly-hidden {
+  height: 1px;
+  width: 1px;
+  position: absolute;
+  overflow: hidden;
+  top: -10px;
+}
 
 @media (max-width:1024px) {
 }
