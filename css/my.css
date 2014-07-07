@@ -414,6 +414,9 @@ input[type="checkbox"] {
   text-decoration: none;
   font-family: Helvetica,Arial,sans-serif;
 }
+.ion {
+  font-family: "Ionicons"; speak: none; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; text-rendering: auto; line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
 
 /* List pagination markup */
 .list-pagination-container {
@@ -457,7 +460,7 @@ input[type="checkbox"] {
 }
 .ci-icon-left-arrow:before {
   font-family: 'Ionicons';
-  content: '\f107';
+  content: '\f107<'></'>;
   font-style: normal;
 }
 .ci-icon-right-arrow:before {

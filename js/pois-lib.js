@@ -404,7 +404,7 @@ function setListPagePois(offset)
             contentTemplate +=
                 "<li" + className + ">" +
                 "<a href='' onclick='overrideDetailClick(\"" + poi.id + "\"); return false;'>" +
-                "<span class='" + imageClass + " icon'></span>" +
+                "<span class='ion " + imageClass + " icon'></span>" +
                 "<h3>" + poi.title + "</h3>" +
                 category +
                 "</a>" +

@@ -100,9 +100,9 @@
                         </ul>
                     </div><!--list-->
                     <div class="list-pagination-container">
-                        <a id="list-pagination-previous" href="#"><span class="accessibly-hidden">List previous items</span><i class="ci-icon ci-icon-left-arrow">&nbsp;</i></a>
+                        <a id="list-pagination-previous" href="#"><span class="accessibly-hidden">List previous items</span><i class="ion ci-icon-left-arrow">&nbsp;</i></a>
                         <span id="list-pagination-text"><!-- dynamically filled with data --></span>
-                        <a id="list-pagination-next" href="#"><span class="accessibly-hidden">List next items</span><i class="ci-icon ci-icon-right-arrow">&nbsp;</i></a>
+                        <a id="list-pagination-next" href="#"><span class="accessibly-hidden">List next items</span><i class="ion ci-icon-right-arrow">&nbsp;</i></a>
                     </div>
                 </div><!--list-scroll-container-->
             </div><!--list-container-->
