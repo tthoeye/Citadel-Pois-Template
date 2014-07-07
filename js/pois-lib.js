@@ -554,7 +554,7 @@ function refreshListPageView(offset) {
           });
         }
     }
-    $('#list-pagination-text').html('page ' + (page + 1) + ' of ' + pages);
+    $('#list-pagination-text').html('pagina ' + (page + 1) + ' van ' + pages);
 }
 
 /* Refreshes the global map onject */
