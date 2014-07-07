@@ -27,6 +27,7 @@ header.ui-bar-a {
     only screen and (min-device-pixel-ratio: 1.5) {
         header.ui-bar-a { 
           background: #333 url('../images/logo_large.png') no-repeat !important; 
+          background-position: right top !important;
           background-size: 98px auto !important;
         }
 }
