@@ -126,7 +126,7 @@ input[type="checkbox"] {
     width:100%;
     overflow:hidden;
     z-index:99;
-    padding-bottom:60px;
+    padding-bottom:40px;
 }
 #map-filter div.filters-list {
     width:100%;

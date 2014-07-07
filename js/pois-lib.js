@@ -655,7 +655,7 @@ $(document).ready(function() {
         if ($('#map-filter').hasClass("accessibly-hidden")) {
             
             $('#map-filter').removeClass('accessibly-hidden');
-            $('#map-filter').animate({ height: 160, paddingTop: 85 }, 500, function() {
+            $('#map-filter').animate({ height: 160, paddingTop: 75 }, 500, function() {
 
             });
         } else {
@@ -671,8 +671,10 @@ $(document).ready(function() {
      * selected filters.
      */
     $('#apply').click(function() {
-        if ($('#map-filter').is(":visible")) {
-            $('#map-filter').slideUp();
+        if (!$('#map-filter').hasClass("accessibly-hidden")) {
+            $('#map-filter').animate({ height: 0, paddingTop: 0 }, 500, function() {
+                $('#map-filter').addClass('accessibly-hidden');
+            });
             var checked_objs = $('.map-filter:checked');
             var set_filters = new Array();
             checked_objs.each(function(k, v) {
@@ -683,7 +685,8 @@ $(document).ready(function() {
             loadListPageData();
             refreshListPageView(0);
         } else {
-            $('#map-filter').slideDown();
+            $('#map-filter').removeClass('accessibly-hidden');
+            $('#map-filter').animate({ height: 160, paddingTop: 75 }, 500);
         }
         return false;
     });
