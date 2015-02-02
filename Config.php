@@ -23,7 +23,7 @@ if (isset($_SERVER['HTTPS'])) {
  */
 //define("HTDOCS_ROOT", "/code/");  
 // Following should work in all situations (with trailing slash)
-define("HTDOCS_ROOT", $root_path);
+define("HTDOCS_ROOT", '/var/www/open.gent/htdocs/lokeren/');
 
 /*********************************************************** 
  * Replace 'localhost' with your IP address, 
@@ -41,22 +41,22 @@ define("SERVERNAME", $server_name);
  ***********************************************************
  */
  
-define("BASE_DIR", $app_path);
+define("BASE_DIR", '');
 define("CLASSES_DIR", "php/");
 define("CLASSES", HTDOCS_ROOT . BASE_DIR . CLASSES_DIR);
 
 define("DEBUG", true);
 
 // dataset
-define("DATASET_FILE", HTDOCS_ROOT . BASE_DIR ."data/POI_gent.json");
+define("DATASET_FILE", HTDOCS_ROOT . BASE_DIR ."data/POI_lokeren.json");
 define("DATASET_ID", 36);
 define("DATASET_URL", SERVERNAME . BASE_DIR . "dataset.php");
 define("USE_DATABASE", false);
 
-// Map Options (coords point to center of Gent)
-define("MAP_CENTER_LATITUDE", 51.033261); 
-define("MAP_CENTER_LONGITUDE", 3.726488);
-define("MAP_ZOOM", 16);
+// Map Options (coords point to center of Lokeren)
+define("MAP_CENTER_LATITUDE", 51.1073866); 
+define("MAP_CENTER_LONGITUDE", 3.991812);
+define("MAP_ZOOM", 15);
 
 // database
 define("DB_USERNAME", "root");
